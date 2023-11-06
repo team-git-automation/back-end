@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: "18"
       # TODO: change app name to "team-git"
-      - name: update-frontend-app
+      - name: update-backend-app
         env: 
           TOKEN: ${{ secrets.TOKEN }}
         run: |
